@@ -1,0 +1,23 @@
+.route-place-selector {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  > div:first-of-type {
+    margin-top: 10px;
+    > span {
+      display: inline-block;
+      width: 80px;
+      text-align: right;
+    }
+  }
+  > div:nth-of-type(2) {
+    flex-basis: 250px;
+    flex-grow: 2;
+    margin-top: 10px;
+  }
+  &__country {
+    width: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
